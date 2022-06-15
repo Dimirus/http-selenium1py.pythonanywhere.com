@@ -14,4 +14,5 @@ def test_guest_can_add_book_from_catalog_to_basket(browser):
             return True
         except:
             return False
-    assert is_basket_found, 'Button basket not found' 
+            
+    assert is_basket_found(browser), 'Button basket not found' 
