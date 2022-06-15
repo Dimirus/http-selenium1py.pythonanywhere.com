@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 def test_guest_can_add_book_from_catalog_to_basket(browser):
     browser.get(link)
-#   time.sleep(5)
+#   time.sleep(30)
     def is_basket_found(browser):
         try:
             browser.implicitly_wait(10)
